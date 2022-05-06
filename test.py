@@ -16,6 +16,7 @@ class TestClass(unittest.TestCase):
             self.assertEqual(EvenOdd.EvenOdd.GetEvenOdd(i), "ODD", f'Error {i} is Odd rather than Even')
 
     def test_MinMaxArray(self):
+        print("\n\n\n")
         for i in range(0, 100):
             arr = list()
             for i in range(0, 4):
